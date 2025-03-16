@@ -1,0 +1,10 @@
+[package]
+name = "all-pairwise-alignments"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+block-aligner = { version = "0.5.1", features = ["simd_avx2"] }
+itertools = "0.14.0"
+needletail = "0.6.3"
+rayon = "1.10.0"
